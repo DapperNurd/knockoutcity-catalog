@@ -1,0 +1,917 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Knockout City™ Catalog</title>
+		<link href="main.css" rel="stylesheet"/>
+		<meta charset="UTF-8">
+		<style>
+			.card {
+				height: 443px;
+			}
+			.centered {
+				max-width: 100%;
+				margin: 0 auto;
+				padding: 0 1em;
+			}
+			
+			.card img {
+				width: 160px;
+			}
+			
+			@media screen and (min-width: 40em) {
+				.card {
+				   max-width: 160px;
+				}
+			}
+
+			@media screen and (min-width: 60em) {
+				.card {
+					max-width: 160px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="title">Knockout City™ Catalog of Items</div>
+				<div class="right-side small-nav"> <!-- Navigation -->
+				
+					<div class="header-link-wrapper first-link">
+						<a href="index.html">Home</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="redeemables.html">Redeemables</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="help.html">Help Contribute</a>
+					</div>
+				</div>
+				<div class="right-side"> <!-- Navigation -->
+					<div class="header-link-wrapper first-link">
+						<a href="playerIcons.html">Player Icons</a>
+					</div>
+					<div class="header-link-wrapper" id="active-header-link">
+						<a href="outfits.html">Outfits</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="faces.html">Faces</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="hairstyles.html">Hairstyles</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="glasses.html">Glasses</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="gloves.html">Gloves</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="gliders.html">Gliders</a>
+					</div>
+					
+					<div class="header-link-wrapper">
+						<a href="ultimates.html">Ultimate Hologram</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="kos.html">KO Effect</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="taunts.html">Taunt</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="intros.html">Intro Pose</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="victories.html">Victory Pose</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="defeats.html">Defeat Pose</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="mvps.html">MVP Pose</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="victories.html">Crew Logo</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="defeats.html">Crew Banner</a>
+					</div>
+					<div class="header-link-wrapper">
+						<a href="mvps.html">Crew Vehicle</a>
+					</div>
+					
+				</div>
+			</header>
+			<main>
+				<div class ="nav_bar">
+					<ul>
+						<li id="bodyA" class="active-nav">Body A (Feminine)</li>
+						<li id="bodyB">Body B (Masculine)</li>
+					</ul>
+				</div>
+				<h1>Outfits</h1>
+				<h2 id="common">Common (4)</h2>
+				<div class="chunks">
+					<div class="chunk"> <!-- Button-Down -->
+						<h3>Button-Down</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Button-Down\f_Fired-Up.png" alt="Fired-Up" width="100">
+									<p>Fired-Up</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Button-Down\f_Island Time.png" alt="Island Time" width="100">
+									<p>Island Time</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Button-Down\f_Squaresville.png" alt="Squaresville" width="100">
+									<p>Squaresville</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Button-Down\f_Sugar Rush.png" alt="Sugar Rush" width="100">
+									<p>Sugar Rush</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Double Rider -->
+						<h3>Double Rider</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Double Rider\f_Red Rider.png" alt="Red Rider" width="100">
+									<p>Red Rider</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Double Rider\f_Dotty Damage.png" alt="Dotty Damage" width="100">
+									<p>Dotty Damage</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Double Rider\f_Asphalt.png" alt="Asphalt" width="100">
+									<p>Asphalt</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Double Rider\f_Pink 'n' Plaid.png" alt="Pink 'n' Plaid" width="100">
+									<p>Pink 'n' Plaid</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Greaser -->
+						<h3>Greaser</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Greaser\f_Classic.png" alt="Classic" width="100">
+									<p>Classic</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Greaser\f_Red Baron.png" alt="Red Baron" width="100">
+									<p>Red Baron</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Greaser\f_The Bomber.png" alt="The Bomber" width="100">
+									<p>The Bomber</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Greaser\f_Pink Punk.png" alt="Pink Punk" width="100">
+									<p>Pink Punk</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Varsity -->
+						<h3>Varsity</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Varsity\f_Homecoming.png" alt="Homecoming" width="100">
+									<p>Homecoming</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Varsity\f_X's and O's.png" alt="X's and O's" width="100">
+									<p>X's and O's</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Varsity\f_Strikers.png" alt="Strikers" width="100">
+									<p>Strikers</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Common\Male\Varsity\f_Star Player.png" alt="Star Player" width="100">
+									<p>Star Player</p>
+								</article>
+							</section>
+						</div>
+					</div>
+				</div>
+				
+				<!-- UNCOMMON -->
+				
+				<h2 id="uncommon">Uncommon (4/7)</h2>
+				<div class="chunks">
+					<div class="chunk"> <!-- Button-Up -->
+						<h3>Button-Up</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Button-Up\f_Ankara.png" alt="Ankara" width="100">
+									<p>Ankara</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Button-Up\f_Aster.png" alt="Aster" width="100">
+									<p>Aster</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Button-Up\f_Hibiscus.png" alt="Hibiscus" width="100">
+									<p>Hibiscus</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Button-Up\f_Lily and Lotus.png" alt="Lily and Lotus" width="100">
+									<p>Lily and Lotus</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Cooldown -->
+						<h3>Cooldown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Cooldown\f_No Sweat.png" alt="No Sweat" width="100">
+									<p>No Sweat</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Cooldown\f_Ancient Art.png" alt="Ancient Art" width="100">
+									<p>Ancient Art</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Cooldown\f_Shanti.png" alt="Shanti" width="100">
+									<p>Shanti</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Cooldown\f_All That Glitters.png" alt="All That Glitters" width="100">
+									<p>All That Glitters</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Psychobilly -->
+						<h3>Psychobilly</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Psychobilly\f_Snitches Get Stiches.png" alt="Snitches Get Stiches" width="100">
+									<p>Snitches Get Stiches</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Psychobilly\f_Black Widow.png" alt="Black Widow" width="100">
+									<p>Black Widow</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Psychobilly\f_Bone To Pick.png" alt="Bone To Pick" width="100">
+									<p>Bone To Pick</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Psychobilly\f_Creature Feature.png" alt="Creature Feature" width="100">
+									<p>Creature Feature</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Sun's Out -->
+						<h3>Sun's Out</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Sun's Out\f_Team Player.png" alt="Team Player" width="100">
+									<p>Team Player</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Sun's Out\f_Kickflip.png" alt="Kickflip" width="100">
+									<p>Kickflip</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Sun's Out\f_Halftoned.png" alt="Halftoned" width="100">
+									<p>Halftoned</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Uncommon\Male\Sun's Out\f_Brawl Camp.png" alt="Brawl Camp" width="100">
+									<p>Brawl Camp</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+				</div>
+				
+				<!-- RARE -->
+				
+				<h2 id="rare">Rare (3/7)</h2>
+				<div class="chunks">
+					<div class="chunk"> <!-- Beat Street -->
+						<h3>Beat Street</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Beat Street\f_Rebel Rocker.png" alt="Rebel Rocker" width="100">
+									<p>Rebel Rocker</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Beat Street\f_Afrobeats.png" alt="Afrobeats" width="100">
+									<p>Afrobeats</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Beat Street\f_Floral Folk.png" alt="Floral Folk" width="100">
+									<p>Floral Folk</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Beat Street\f_Hot 'n' Chili.png" alt="Hot 'n' Chili" width="100">
+									<p>Hot 'n' Chili</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Cheerleadear -->
+						<h3>Cheerleader</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Cheerleader\f_Dodgin' Dillos.png" alt="Dodgin' Dillos" width="100">
+									<p>Dodgin' Dillos</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Cheerleader\f_Striker Squad.png" alt="Striker Squad" width="100">
+									<p>Striker Squad</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Cheerleader\f_Striker Squad.png" alt="Striker Squad" width="100">
+									<p>Striker Squad</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Cheerleader\f_Diamond Dashers.png" alt="Diamond Dashers" width="100">
+									<p>Diamond Dashers</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Poodle-Hurt -->
+						<h3>Poodle-Hurt</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Poodle-Hurt\f_Best In Show.png" alt="Best In Show" width="100">
+									<p>Best In Show</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Poodle-Hurt\f_Desert 'Dillo.png" alt="Desert 'Dillo" width="100">
+									<p>Desert 'Dillo</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Poodle-Hurt\f_Underworld.png" alt="Underworld" width="100">
+									<p>Underworld</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Rare\Male\Poodle-Hurt\f_The Cat's Meow.png" alt="The Cat's Meow" width="100">
+									<p>The Cat's Meow</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+				</div>
+				
+				<!-- EPIC -->
+				
+				<h2 id="epic">Epic (1/7)</h2>
+				<div class="chunks">
+					<div class="chunk"> <!-- Scavenger -->
+						<h3>Scavenger</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Epic\Male\Scavenger\f_Mudslinger.png" alt="Mudslinger" width="100">
+									<p>Mudslinger</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Epic\Male\Scavenger\f_True Colors.png" alt="True Colors" width="100">
+									<p>True Colors</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Epic\Male\Scavenger\f_Footbrawler.png" alt="Footbrawler" width="100">
+									<p>Footbrawler</p>
+								</article>
+								<article  class="card">
+									<img class="bodyIMG" src="Knockout City Items\Outfit\Epic\Male\Scavenger\f_Overclocked.png" alt="Overclocked" width="100">
+									<p>Overclocked</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+				</div>
+				
+				<!-- LEGENDARY -->
+				
+				<h2 id="legendary">Legendary (0/7)</h2>
+				<div class="chunks">
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+					<div class="chunk"> <!-- Unknown -->
+						<h3>Unknown</h3>
+						<div class="centered">
+							<section class="cards">
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+								<article  class="card">
+									<img src="EmptyLarge.png" alt="EmptyLarge" width="100">
+									<p>?</p>
+								</article>
+							</section>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer>
+				Created by <a target="_blank" href="https://www.reddit.com/user/DapperNurd">/u/DapperNurd</a>
+			</footer>
+		</div>
+		<script>
+			var femaleButton = document.getElementById("bodyA");
+			var maleButton = document.getElementById("bodyB");
+			
+			var type = "f_";
+			
+			femaleButton.addEventListener("click", function() {
+				if(type == "m_") {
+					type = "f_";
+					maleButton.className = "";
+					femaleButton.className = "active-nav";
+					changeImages(type);
+				}
+			});
+			
+			maleButton.addEventListener("click", function() {
+				if(type == "f_") {
+					type = "m_";
+					maleButton.className = "active-nav";
+					femaleButton.className = "";
+					changeImages(type);
+				}
+			});
+			
+			function changeImages(buttonType) {
+				oppositeType = (buttonType == "m_") ? "f_" : "m_"
+				imgList = document.getElementsByClassName("bodyIMG");
+				l = imgList.length;
+				for (i = 0; i < l; i++) {
+				  currentSrc = imgList[i].src;
+				  imgList[i].src = currentSrc.replace(oppositeType, buttonType);
+				}
+			}
+		</script>
+	</body>
+</html>
