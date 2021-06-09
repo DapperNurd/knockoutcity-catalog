@@ -428,7 +428,7 @@ footer a {
 		"content content content"
 		"footer footer footer";
 
-	  grid-template-columns: 200px 1fr 200px;
+	  grid-template-columns: 200px 2fr 200px;
 	  grid-template-rows: auto 1375px 1fr auto;
 	  grid-gap: 0px;
 
