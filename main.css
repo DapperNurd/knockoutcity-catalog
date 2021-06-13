@@ -54,14 +54,9 @@ header {
 	font-family: Trebuchet MS, lato, roboto, sans-serif;
 }
 
-.main-nav {
-	#font-style: normal !important;
-}
-
 .right-side {
 	display: flex;
 	flex-direction: column;
-	#align-items: center;
 	justify-content: center;
 	padding: 10px 0px;
 	margin-top: 10px;
@@ -252,6 +247,7 @@ main {
 	color: white;
 	padding-top: 20px;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .help-div {
@@ -407,7 +403,6 @@ footer {
 	font-size: 95%;
 	text-align: center;
 	padding: 15px 0px;
-	margin-top: 40px;
 	color: white;
 }
 
@@ -435,12 +430,11 @@ footer a {
 	}
 	
 	main {
-		
 		background: #49006d;
 	}
 	
 	header {
-		height: 125px;
+		height: 135px;
 	}
 	
 	nav {
@@ -451,10 +445,6 @@ footer a {
 	
 	nav div {
 		margin: auto;
-	}
-	
-	nav div a {
-		#width: 40%
 	}
 	
 	#bodyA {
@@ -497,12 +487,12 @@ footer a {
 		background-image: linear-gradient(orange, yellow);
 		padding-left: 0px;
 		font-size: 1.2em;
-		color: black;
+		color: black !important;
 		text-shadow: 0px 0px 1px black;
 	}
 
 	#active-header-link a {
-		color: black;
+		color: black !important;
 	}
 	
 }
