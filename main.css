@@ -434,6 +434,10 @@ footer a {
 	  height: 100vh;
 	}
 	
+	main {
+		background: #191a1c;
+	}
+	
 	header {
 		height: 125px;
 	}
