@@ -110,10 +110,6 @@ header {
 	text-shadow: 0px 0px 1px black;
 }
 
-#active-header-link a {
-	color: black;
-}
-
 .nav_bar {
 	font-weight: bolder;
 	font-style: italic;
@@ -429,6 +425,10 @@ footer a {
 	  height: 100vh;
 	}
 	
+	body {
+		font-size: 1.15em;
+	}
+	
 	main {
 		background: #49006d;
 	}
@@ -486,15 +486,10 @@ footer a {
 	#active-header-link {
 		background-image: linear-gradient(orange, yellow);
 		padding-left: 0px;
-		font-size: 1.2em;
 		color: black !important;
 		text-shadow: 0px 0px 1px black;
+		font-size: 1.2em;
 	}
-
-	#active-header-link a {
-		color: black !important;
-	}
-	
 }
 
 @media screen and (max-width: 790px) {
