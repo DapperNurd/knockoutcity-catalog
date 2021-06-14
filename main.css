@@ -425,16 +425,13 @@ footer a {
 	  height: 100vh;
 	}
 	
-	body {
-		font-size: 1.15em;
-	}
-	
 	main {
 		background: #49006d;
 	}
 	
 	header {
-		height: 125px;
+		height: 105px;
+		font-size: 1.1em;
 	}
 	
 	nav {
@@ -488,7 +485,7 @@ footer a {
 		padding-left: 0px;
 		color: black !important;
 		text-shadow: 0px 0px 1px black;
-		font-size: 1.2em;
+		font-size: 1.225em;
 	}
 }
 
